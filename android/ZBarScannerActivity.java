@@ -148,9 +148,9 @@ implements SurfaceHolder.Callback {
             scanner.setConfig(0, Config.Y_DENSITY, 3);
 
             // Set the config for barcode formats
-            for(ZBarcodeFormat format : getFormats()) {
+            /*for(ZBarcodeFormat format : getFormats()) {
                 scanner.setConfig(format.getId(), Config.ENABLE, 0);
-            }
+            }*/
 	    scanner.setConfig(Symbol.QRCODE, Config.ENABLE, 1);
 
             // Set content view
