@@ -9,7 +9,8 @@ public class ZBarcodeFormat {
     private int mId;
     private String mName;
 
-    public static final ZBarcodeFormat NONE = new ZBarcodeFormat(Symbol.NONE, "NONE");
+    public static final ZBarcodeFormat QRCODE = new ZBarcodeFormat(Symbol.QRCODE, "QRCODE");
+    /*public static final ZBarcodeFormat NONE = new ZBarcodeFormat(Symbol.NONE, "NONE");
     public static final ZBarcodeFormat PARTIAL = new ZBarcodeFormat(Symbol.PARTIAL, "PARTIAL");
     public static final ZBarcodeFormat EAN8 = new ZBarcodeFormat(Symbol.EAN8, "EAN8");
     public static final ZBarcodeFormat UPCE = new ZBarcodeFormat(Symbol.UPCE, "UPCE");
@@ -23,9 +24,8 @@ public class ZBarcodeFormat {
     public static final ZBarcodeFormat CODABAR = new ZBarcodeFormat(Symbol.CODABAR, "CODABAR");
     public static final ZBarcodeFormat CODE39 = new ZBarcodeFormat(Symbol.CODE39, "CODE39");
     public static final ZBarcodeFormat PDF417 = new ZBarcodeFormat(Symbol.PDF417, "PDF417");
-    public static final ZBarcodeFormat QRCODE = new ZBarcodeFormat(Symbol.QRCODE, "QRCODE");
     public static final ZBarcodeFormat CODE93 = new ZBarcodeFormat(Symbol.CODE93, "CODE93");
-    public static final ZBarcodeFormat CODE128 = new ZBarcodeFormat(Symbol.CODE128, "CODE128");
+    public static final ZBarcodeFormat CODE128 = new ZBarcodeFormat(Symbol.CODE128, "CODE128");*/
 
     public static final List<ZBarcodeFormat> ALL_FORMATS = new ArrayList<ZBarcodeFormat>();
 
