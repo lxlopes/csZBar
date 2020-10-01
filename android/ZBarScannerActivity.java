@@ -144,8 +144,8 @@ implements SurfaceHolder.Callback {
             // Initiate instance variables
             autoFocusHandler = new Handler();
             scanner = new ImageScanner();
-            scanner.setConfig(0, Config.X_DENSITY, 3);
-            scanner.setConfig(0, Config.Y_DENSITY, 3);
+            //scanner.setConfig(0, Config.X_DENSITY, 3);
+            //scanner.setConfig(0, Config.Y_DENSITY, 3);
 
             // Set the config for barcode formats
             /*for(ZBarcodeFormat format : getFormats()) {
