@@ -10,7 +10,7 @@ public class ZBarcodeFormat {
     private String mName;
 
     public static final ZBarcodeFormat QRCODE = new ZBarcodeFormat(Symbol.QRCODE, "QRCODE");
-    /*public static final ZBarcodeFormat NONE = new ZBarcodeFormat(Symbol.NONE, "NONE");
+    public static final ZBarcodeFormat NONE = new ZBarcodeFormat(Symbol.NONE, "NONE");
     public static final ZBarcodeFormat PARTIAL = new ZBarcodeFormat(Symbol.PARTIAL, "PARTIAL");
     public static final ZBarcodeFormat EAN8 = new ZBarcodeFormat(Symbol.EAN8, "EAN8");
     public static final ZBarcodeFormat UPCE = new ZBarcodeFormat(Symbol.UPCE, "UPCE");
@@ -25,13 +25,13 @@ public class ZBarcodeFormat {
     public static final ZBarcodeFormat CODE39 = new ZBarcodeFormat(Symbol.CODE39, "CODE39");
     public static final ZBarcodeFormat PDF417 = new ZBarcodeFormat(Symbol.PDF417, "PDF417");
     public static final ZBarcodeFormat CODE93 = new ZBarcodeFormat(Symbol.CODE93, "CODE93");
-    public static final ZBarcodeFormat CODE128 = new ZBarcodeFormat(Symbol.CODE128, "CODE128");*/
+    public static final ZBarcodeFormat CODE128 = new ZBarcodeFormat(Symbol.CODE128, "CODE128");
 
     public static final List<ZBarcodeFormat> ALL_FORMATS = new ArrayList<ZBarcodeFormat>();
 
     static {
         ALL_FORMATS.add(ZBarcodeFormat.QRCODE);
-        /*ALL_FORMATS.add(ZBarcodeFormat.PARTIAL);
+        ALL_FORMATS.add(ZBarcodeFormat.PARTIAL);
         ALL_FORMATS.add(ZBarcodeFormat.EAN8);
         ALL_FORMATS.add(ZBarcodeFormat.UPCE);
         ALL_FORMATS.add(ZBarcodeFormat.ISBN10);
@@ -46,7 +46,7 @@ public class ZBarcodeFormat {
         ALL_FORMATS.add(ZBarcodeFormat.PDF417);
         
         ALL_FORMATS.add(ZBarcodeFormat.CODE93);
-        ALL_FORMATS.add(ZBarcodeFormat.CODE128);*/
+        ALL_FORMATS.add(ZBarcodeFormat.CODE128);
     }
 
     public ZBarcodeFormat(int id, String name) {
