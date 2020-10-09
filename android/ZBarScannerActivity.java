@@ -147,10 +147,11 @@ implements SurfaceHolder.Callback {
             //scanner.setConfig(0, Config.X_DENSITY, 3);
             //scanner.setConfig(0, Config.Y_DENSITY, 3);
 
-            // Set the config for barcode formats
+            // Set this config for more barcode formats
             /*for(ZBarcodeFormat format : getFormats()) {
                 scanner.setConfig(format.getId(), Config.ENABLE, 0);
             }*/
+	    // set the config to only accept QR codes
 	    scanner.setConfig(Symbol.QRCODE, Config.ENABLE, 1);
 
             // Set content view
